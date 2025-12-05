@@ -1,0 +1,78 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Circle -->
+  <circle cx="256" cy="256" r="256" fill="#0A0E27"/>
+  
+  <!-- Gradient Definitions -->
+  <defs>
+    <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%\" y2="100%">
+      <stop offset="0%" style="stop-color:#00D9FF;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#00FF88;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0066FF;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="coinGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFD700;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#00FF88;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#00D9FF;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="glowGradient" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#00D9FF;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#00D9FF;stop-opacity:0" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Glow Effect -->
+  <circle cx="256" cy="256" r="200" fill="url(#glowGradient)" opacity="0.3"/>
+  
+  <!-- Outer Ring -->
+  <circle cx="256" cy="256" r="180" stroke="url(#logoGradient)" stroke-width="6" fill="none" opacity="0.5"/>
+  
+  <!-- Main Coin/Token -->
+  <circle cx="256" cy="256" r="140" fill="url(#coinGradient)" opacity="0.2"/>
+  <circle cx="256" cy="256" r="140" stroke="url(#logoGradient)" stroke-width="8" fill="none"/>
+  
+  <!-- Inner Design - Money Symbol with AI Elements -->
+  <g transform="translate(256, 256)">
+    <!-- Central $ Symbol -->
+    <path d="M -15 -80 L -15 -60 M 15 -80 L 15 -60" stroke="url(#logoGradient)" stroke-width="10" stroke-linecap="round"/>
+    <path d="M -40 -50 C -40 -70, -20 -80, 0 -80 C 20 -80, 40 -70, 40 -50 C 40 -30, 20 -20, 0 -20 C -20 -20, -40 -10, -40 10 C -40 30, -20 40, 0 40 C 20 40, 40 30, 40 10" 
+          stroke="url(#logoGradient)" stroke-width="12" fill="none" stroke-linecap="round"/>
+    <path d="M -15 40 L -15 60 M 15 40 L 15 60" stroke="url(#logoGradient)" stroke-width="10" stroke-linecap="round"/>
+    
+    <!-- AI Neural Network Nodes -->
+    <circle cx="-80" cy="-60" r="6" fill="#00D9FF"/>
+    <circle cx="80" cy="-60" r="6" fill="#00FF88"/>
+    <circle cx="-80" cy="0" r="6" fill="#00FF88"/>
+    <circle cx="80" cy="0" r="6" fill="#0066FF"/>
+    <circle cx="-80" cy="60" r="6" fill="#0066FF"/>
+    <circle cx="80" cy="60" r="6" fill="#00D9FF"/>
+    
+    <!-- Connection Lines -->
+    <line x1="-80" y1="-60" x2="-50" y2="-40" stroke="#00D9FF" stroke-width="2" opacity="0.4"/>
+    <line x1="80" y1="-60" x2="50" y2="-40" stroke="#00FF88" stroke-width="2" opacity="0.4"/>
+    <line x1="-80" y1="0" x2="-50" y2="0" stroke="#00FF88" stroke-width="2" opacity="0.4"/>
+    <line x1="80" y1="0" x2="50" y2="0" stroke="#0066FF" stroke-width="2" opacity="0.4"/>
+    <line x1="-80" y1="60" x2="-50" y2="40" stroke="#0066FF" stroke-width="2" opacity="0.4"/>
+    <line x1="80" y1="60" x2="50" y2="40" stroke="#00D9FF" stroke-width="2" opacity="0.4"/>
+  </g>
+  
+  <!-- AI Sparkles -->
+  <g opacity="0.9">
+    <!-- Top Sparkle -->
+    <path d="M 256 60 L 261 75 L 276 80 L 261 85 L 256 100 L 251 85 L 236 80 L 251 75 Z" fill="#00D9FF"/>
+    
+    <!-- Right Sparkle -->
+    <path d="M 430 256 L 435 271 L 450 276 L 435 281 L 430 296 L 425 281 L 410 276 L 425 271 Z" fill="#00FF88"/>
+    
+    <!-- Bottom Sparkle -->
+    <path d="M 256 430 L 261 445 L 276 450 L 261 455 L 256 470 L 251 455 L 236 450 L 251 445 Z" fill="#0066FF"/>
+    
+    <!-- Left Sparkle -->
+    <path d="M 82 256 L 87 271 L 102 276 L 87 281 L 82 296 L 77 281 L 62 276 L 77 271 Z" fill="#00FF88"/>
+  </g>
+  
+  <!-- Corner Accents -->
+  <circle cx="100" cy="100" r="4" fill="#00D9FF" opacity="0.6"/>
+  <circle cx="412" cy="100" r="4" fill="#00FF88" opacity="0.6"/>
+  <circle cx="100" cy="412" r="4" fill="#0066FF" opacity="0.6"/>
+  <circle cx="412" cy="412" r="4" fill="#00D9FF" opacity="0.6"/>
+</svg>
